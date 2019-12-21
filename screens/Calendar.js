@@ -42,6 +42,8 @@ export default class Calendar extends React.Component{
       <Text  style = {{fontSize : 15, color : "red"}}> Günler arası fark en fazla 7 olmalıdır. </Text>
       <Text  style = {{fontSize : 15, color : "black"}}> Ligi seçiniz </Text>
 
+     <Text> {this.state.league} </Text>
+
       <Picker
        selectedValue={this.state.league}
        style={{height: 25, width: 50}}
