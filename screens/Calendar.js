@@ -76,13 +76,6 @@ export default class Calendar extends React.Component{
   <Picker.Item label="UEFA Nations League" value="UEFA Nations League" />
 </Picker>
 
-    <TextInput style= {{ height: 40, borderColor: 'gray', borderWidth: 1 }}
-        underlineColorAndroid="transparent"
-        placeholder = " Ligi giriniz"
-        placeholderTextColor ="black"
-        onChangeText= {league => this.setState({ league })}
-        blurOnSubmit={false}
-      />
     <Button
           title="Takvimi  Getir"
           color = "dodgerblue"
