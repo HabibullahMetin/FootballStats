@@ -1,2 +1,0 @@
-# FootballStats
-Mobile Project
